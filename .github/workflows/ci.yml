@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  IMAGE_NAME: marypearl/currencyservice
+  IMAGE_NAME: alade01/currencyservice
 
 jobs:
   build-and-push:
@@ -30,5 +30,5 @@ jobs:
           context: .
           push: true
           tags: |
-            marypearl/currencyservice:latest
-            marypearl/currencyservice:${{ github.sha }}
+            alade01/currencyservice:latest
+            alade01/currencyservice:${{ github.sha }}

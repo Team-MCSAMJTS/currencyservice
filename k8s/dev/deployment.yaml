@@ -29,7 +29,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: marypearl/currencyservice:latest
+        image: alade01/currencyservice:latest
         ports:
         - name: grpc
           containerPort: 7000
