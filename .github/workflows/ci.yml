@@ -32,3 +32,4 @@ jobs:
           tags: |
             alade01/currencyservice:latest
             alade01/currencyservice:${{ github.sha }}
+
